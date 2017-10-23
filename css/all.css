@@ -99,7 +99,9 @@ strong {}
 #header .logo{
 	float: left;
 	padding: 52px 0 15px 0;
-
+}
+#header .logo a{
+	display: block;
 }
 #header .nav{
 	float: right;
@@ -312,14 +314,40 @@ input[type="search"] {
 
 #footer .socia_icon{
 	float: left;
+	height: 23px;
 	width: 230px;
-	border-top: 5px solid #0481c2;
 	padding: 8px 0 0 0;
+	border-top: 5px solid #0481c2;
 }
-#footer .socia_icon a{
+#footer .socia_icon ul li{
 	display: inline-block;
 }
-#footer .socia_icon a img{
+#footer .socia_icon .facebook{
+	width: 23px;
+	height: 23px;
+	background: url(../images/social.png) no-repeat 0 0;
+}
+#footer .socia_icon .twitter{
+	width: 23px;
+	height: 23px;
+	background: url(../images/social.png) no-repeat -29px 0;
+}
+#footer .socia_icon .linkedin{
+	width: 23px;
+	height: 23px;
+	background: url(../images/social.png) no-repeat -56px 0;
+}
+#footer .socia_icon .myspace{
+	width: 23px;
+	height: 23px;
+	background: url(../images/social.png) no-repeat -83px 0;
+}
+#footer .socia_icon .rss{
+	width: 23px;
+	height: 23px;
+	background: url(../images/social.png) no-repeat -112px 0;
+}
+#footer .socia_icon a{
 	display: block;
 }
 #footer .Copyright{
